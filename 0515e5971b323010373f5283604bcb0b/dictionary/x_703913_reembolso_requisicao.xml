@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="requisicao" max_length="40" name="x_703913_reembolso_requisicao" type="collection">
+        <element label="Email" max_length="300" name="email" type="string"/>
+        <element label="Gerente Direto" max_length="32" name="gerente_direto" reference="sys_user" type="reference"/>
+        <element label="Nome" max_length="100" name="nome" type="string"/>
+        <element label="Nota fiscal" max_length="40" name="nota_fiscal" type="user_image"/>
+        <element label="Valor" max_length="20" name="valor" type="price"/>
+    </element>
+</database>
